@@ -12,6 +12,7 @@
     github_https_url: https://github.com/
     #byxussof buscar manera
     #bitbucket_https_url: https://xussof@bitbucket.org/
+    bitbucket_api_url: https://api.bitbucket.org
     #Repositories services ssh urls
     gitlab_git_url:
     github_git_url: "git@github.com:"
