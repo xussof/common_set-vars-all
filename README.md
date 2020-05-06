@@ -3,6 +3,8 @@ common_set-vars-all
 =========
 
 This role it's intended to set a common vars file. It's like an group_vars/all.yml
+You will need also another set-vars-all refering to the project is going to be developed.
+like common_arsolute-set-vars-all. To set specific project vars.
 
 Requirements
 ------------

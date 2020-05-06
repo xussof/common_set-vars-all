@@ -1,12 +1,6 @@
 ---
 # tasks file for common_set-vars-all
 - set_fact:
-    host_root_dir: data/personal
-    repos_dir: repos
-    volumes_dir: volumes
-    keys_dir: keys
-    #Jira data
-    jira_url:
     #Repositories services https urls
     #gitlab_https_url:
     github_https_url: https://github.com/
@@ -21,16 +15,5 @@
     gitlab_git_name: gitlab
     github_git_name: github
     bitbucket_git_name: bitbucket
-    #Repositories users
-    gitlab_repo_user:
-    github_repo_user: xussof
-    bitbucket_repo_user: xussof
-
-    bitbucket_repo_team: arsolute
-
-    lab_env: lab
-    lab_env: qa
-    test_env: test
-    prod_env: prod
 
     ansible_mark: "#ansiblemark"
